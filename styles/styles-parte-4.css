@@ -1,0 +1,88 @@
+.header{
+    background-color: #BBBBBB;
+}
+
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+.header nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+ 
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+}
+
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.main p{
+    margin: 0 0 1em;
+}
+
+.main b{
+    font-weight: bold;
+}
+
+.main i{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.imagenDiferenciales{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+    padding: 40px;
+}
+
+.copyright-text{
+    margin: 20px;
+    color: white;
+    font-size: 13px;
+}

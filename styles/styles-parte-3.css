@@ -1,0 +1,106 @@
+.header{
+    background-color: #BBBBBB;
+}
+
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+.header nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 19px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar-formulario{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar-formulario:hover{
+    background-color: darkorange;
+    transform: scale(1.2) rotate(360deg);    
+}
+
+table{
+    margin: 40px;
+}
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+.footer{
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+    padding: 40px;
+}
+
+.copyright-text{
+    margin: 20px;
+    color: white;
+    font-size: 13px;
+}
