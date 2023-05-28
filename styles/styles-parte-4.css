@@ -146,3 +146,27 @@ nav a:hover{
     color: white;
     font-size: 13px;
 }
+
+/* Media Query - Responsive design */
+
+@media screen and (max-width:480px){
+
+    h1{
+        text-align: center;
+    }
+
+    .header nav{
+        position: static;
+    }
+
+    .items:last-child{
+        margin-bottom: 20px;
+    }
+
+    .lista-diferenciales, .imagenDiferenciales{
+        width: 100%;
+    }
+    .caja, .main, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+}
